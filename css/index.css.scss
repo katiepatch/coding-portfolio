@@ -1,6 +1,7 @@
 body {
   font-family: 'Cantata One', serif, 'Imprima', sans-serif;
   text-align: center;
+  color: gray;
   font-size: 13px;
   height: 100%;
 }
@@ -17,7 +18,7 @@ body {
 }
 
 .navbar a {
-  color: black;
+  color: gray;
   font-size: 1.5em;
 }
 
@@ -40,8 +41,6 @@ body {
   display: inline-block;
   float: none;
   vertical-align: top;
-
-
 }
 
 .navbar .navbar-collapse {
@@ -52,10 +51,6 @@ body {
 .images {
   padding: 5%;
 }
-
-
-
-
 
 img {
   border-radius: 4px;
@@ -80,12 +75,13 @@ img {
 //   vertical-align: middle;
 // }
 
+
 a:hover img {
   opacity: .2;
 }
 
 a, a:visited {
-  color: black;
+  color: gray;
   text-decoration: none;
 }
 
@@ -110,7 +106,7 @@ a:hover {
 }
 
 .right-links a {
-  color: black;
+  color: gray;
 }
 
 .right-links a:hover {
@@ -122,15 +118,26 @@ a:hover {
 }
 
 .about, .contact {
-  width: 50%;
-  padding-top: 5em;
+  width: 75%;
+  padding-top: 7em;
   .color {
     color: turquoise;
   }
 }
 
-.about {
+.text {
   text-align: justify;
+  padding-left: 0px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.me {
+  width: 225px;
+  // border: 1px solid gray;
+  margin-right: 0px;
 }
 
 
