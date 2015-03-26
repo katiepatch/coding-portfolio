@@ -43,6 +43,10 @@ h2 {
   font-size: 1.5em;
 }
 
+.navbar a:hover {
+  color: turquoise;
+}
+
 .turquoise {
   color:turquoise;
 }
@@ -113,6 +117,7 @@ h2 {
 /*----------------------------- index page style ----------------------------------*/
 .images {
   padding: 5%;
+  padding-bottom: 7em;
 }
 
 img {
@@ -147,6 +152,7 @@ a:hover img {
   width: 225px;
   // border: 1px solid gray;
   margin-right: 0px;
+  padding-bottom: 7em;
 }
 
 /*----------------------------- end contact page style ----------------------------------*/
