@@ -52,6 +52,14 @@ body {
 .navbar .navbar-collapse {
   text-align: center;
 }
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: gray;
+}
+
+.navbar .navbar-toggle:hover {
+  background-color: turquoise;
+}
 /*-----------------------------end navbar style ----------------------------------*/
 
 /*-----------------------------footer style ----------------------------------*/
