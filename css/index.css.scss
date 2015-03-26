@@ -22,6 +22,21 @@ body {
   padding: 0 0 60px;
 }
 
+a, a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color:turquoise;
+  text-decoration:none;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+
 /*-----------------------------navbar style----------------------------------*/
 .navbar a {
   color: gray;
@@ -95,6 +110,7 @@ body {
 
 /*----------------------------- end footer style ----------------------------------*/
 
+/*----------------------------- index page style ----------------------------------*/
 .images {
   padding: 5%;
 }
@@ -103,40 +119,13 @@ img {
   border-radius: 4px;
 }
 
-// span.details {
-//   background: rgba(0,0,0,0.5);
-//   color: white;
-//   cursor: pointer;
-//   width: 315px;
-//   height:210px;
-//   top: 0;
-//   left: 0;
-//   position:absolute;
-//   border-radius: 4px;
-//   padding: 5%
-// }
-
-// span.details span {
-//   display: table-cell;
-//   text-align: center;
-//   vertical-align: middle;
-// }
-
-
 a:hover img {
   opacity: .2;
 }
 
-a, a:visited {
-  color: gray;
-  text-decoration: none;
-}
+/*----------------------------- end index page style ----------------------------------*/
 
-a:hover {
-  color:turquoise;
-  text-decoration:none;
-}
-
+/*----------------------------- about page style ----------------------------------*/
 .about, .contact {
   width: 75%;
   padding-top: 7em;
@@ -151,13 +140,14 @@ a:hover {
   padding-left: 0px;
 }
 
-h2 {
-  font-size: 2em;
-}
+/*----------------------------- end about page style ----------------------------------*/
 
+/*----------------------------- contact page style ----------------------------------*/
 .me {
   width: 225px;
   // border: 1px solid gray;
   margin-right: 0px;
 }
+
+/*----------------------------- end contact page style ----------------------------------*/
 
